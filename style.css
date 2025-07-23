@@ -106,10 +106,10 @@ font-size: 50px;
  .badge-img {
   position: absolute;
   top: -130px;
-  right: 50px;
+  right: 30px;
 }
 .right-column {
-  padding: 40px 30px;
+  padding: 40px 10px;
 }
 .right-column h2 {
  font-size: 50px;
@@ -130,4 +130,88 @@ font-size: 50px;
 }
 .text-section {
   text-align: center;
+}
+.text-section h2 {
+  font-size: 50px;
+}
+.text-section p {
+  font-size: 22px;
+  color: #555;
+}
+
+
+
+.left-img {
+  padding: 20px;
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box img {
+  border-radius: 20px;
+  filter: brightness(70%);
+}
+
+.sub-title {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  left: 70px;
+  top: 70px;
+  color: white;
+}
+
+.sub-title p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shop-now {
+  margin-top: 6px;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+.img-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  transform: translateY(60px);
+}
+.hero-img {
+  flex-direction: column;
+}
+.side-img {
+  padding: 30px;
+}
+.box-img {
+ position: relative;
+}
+.box-img img {
+  border-radius: 20px;
+  filter: brightness(70%);
+}
+.mini-title {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  left: 290px;
+  top: 170px;
+  color: white;
+}
+.mini-title p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.shop-now-btn {
+  margin-top: 6px;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
 }
