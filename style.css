@@ -147,6 +147,7 @@ font-size: 50px;
 
 .img-box {
   position: relative;
+  transform: translate(70px);
 }
 
 .img-box img {
@@ -190,6 +191,7 @@ font-size: 50px;
 }
 .box-img {
  position: relative;
+ transform: translate(-70px);
 }
 .box-img img {
   border-radius: 20px;
@@ -214,4 +216,49 @@ font-size: 50px;
   text-decoration: underline;
   cursor: pointer;
   color: #fff;
+}
+.form-section {
+  background-image: url(news-letter-bg.png);
+  background-size: cover;
+   background-repeat: no-repeat;
+   width: 1648px;
+   height: 533px;
+   transform: translateY(70px);
+}
+.form-section h2 {
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  transform: translatey(170px);
+}
+.form-section input {
+  width: 480px;
+  height: 50px;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 13px;
+  border: none; 
+   
+}
+.form-section input:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgb(255, 150, 204);
+}
+.btn-secondary {
+  width: 186px;
+  height: 55px;
+  border: none;
+  background-color: #E95A08;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.btn-secondary input {
+  display: block;
+  transform: translatey(170px);
+}
+.form-section input,
+.form-section .btn-secondary {
+  display: inline-block;
+  margin-top: 150px;
+  transform: translate(500px);
 }
