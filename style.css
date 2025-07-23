@@ -1,0 +1,92 @@
+.header-container {
+ display: flex;
+  gap: 30px;
+  padding: 20px;
+  justify-content: end;
+  transform: translateY(-100px);
+  margin-right: 40px;
+}
+.logo img {
+  width: 135px;
+  height: 82px;
+  margin-left: 40px;
+  padding: 20px;
+}
+.nave-list {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  font-size: 20px;
+}
+.nave-list a {
+  text-decoration: none;
+  color: black;
+}
+.cart-icon img{
+  width: 60px;
+  height: 50px;
+}
+.cart-text {
+  font-size: 20px;
+  margin-left: 25px;
+  display: inline-block;
+  transform: translateY(-15px);
+  margin-left: 0px;
+}
+.Hero-conainer {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+.left-hero {
+transform: translateY(30px);
+margin-left: 20px;
+}
+.brand-title {
+  color: #E95A08;
+}
+.left-hero h1 {
+  font-size: 65px;
+  transform: translateY(-25px);
+}
+.left-hero p {
+  font-size: 22px;
+  transform: translateY(-30px);
+}
+.right-hero {
+  margin-right: 20px;
+}
+.text-contain {
+  text-align: center;
+}
+.text-contain h2 {
+font-size: 50px;
+}
+.text-contain p {
+  font-size: 22px;
+}
+.products-container {
+  padding-top: 40px;
+}
+.Products-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  padding: 0 20px 40px 20px;
+}
+.product-item h3 {
+  font-size: 22px;
+}
+.product-item p {
+  font-size: 22px;
+}
+.btn-primary {
+  background-color: #E95A08;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  width: 270px;
+  height: 50px;
+}
