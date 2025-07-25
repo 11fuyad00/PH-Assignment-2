@@ -73,10 +73,11 @@ font-size: 50px;
 .Products-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  column-gap: 10px;
+  row-gap: 30px;  
   padding: 20px;
   text-align: center;
-  padding: 0 20px 40px 20px;
+  padding: 0 120px 40px 180px;
 }
 .product-item h3 {
   font-size: 22px;
@@ -91,6 +92,10 @@ font-size: 50px;
   border: none;
   width: 270px;
   height: 50px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: crimson;
 }
 .column-section {
   display: flex;
@@ -251,6 +256,10 @@ font-size: 50px;
   background-color: #E95A08;
   font-size: 16px;
   color: #FFFFFF;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background-color: crimson;
 }
 .btn-secondary input {
   display: block;
@@ -261,4 +270,258 @@ font-size: 50px;
   display: inline-block;
   margin-top: 150px;
   transform: translate(500px);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  transform: translateY(-100px);
+  margin-left: 500px;
+  font-size: 18px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+}
+.footer-list {
+  text-decoration: none;
+  color: #555;
+}
+.footer-list li {
+    margin-bottom: 26px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  margin-bottom: 200px;
+}
+
+.footer-header {
+transform: translateY(120px);
+margin-left: 180px;
+}
+.footer-text{
+  transform: translate(60px);
+  font-size: 22px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+   .nav-section {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between; /* logo ar cart duita dike */
+    align-items: center;
+  }
+  .cart-icon {
+    display: flex;
+    gap: 10px;
+    margin-left: 270px;
+  }
+  .cart-text {
+    display: flex;
+    margin-top: 28px;
+     white-space: nowrap;
+  }
+
+  .header-container {
+    margin-right: 20px;
+    justify-content: flex-end;
+    transform: none;
+  }
+
+  .logo img {
+    margin-left: 10px;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+  }
+
+
+  .badge-img {
+    display: none;
+  }
+
+  /* ✅ Hero section stack vertically */
+  .Hero-conainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .text-contain {
+    text-align: center;
+    margin-left: 160px;
+    
+  }
+  .text-contain br {
+    display: none;
+  }
+ .left-hero {
+  text-align: start;
+ }
+
+  .left-hero h1 {
+    font-size: 32px;
+    
+  }
+
+  .left-hero p {
+    font-size: 16px;
+  }
+  .left-hero br {
+     display: none;
+  }
+
+  .right-hero {
+    margin: 0 auto;
+  }
+
+  
+  .Products-section {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px 30px 10px;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+
+  .product-item {
+    padding: 10px;
+  }
+
+  /* ✅ Column section adjust */
+  .column-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .right-column br {
+    display: none;
+  }
+  .right-column ul br {
+     display: none;
+  }
+
+  .right-column h2 {
+    font-size: 28px;
+  }
+
+
+ .text-section {
+ transform: translate(120px);
+}
+
+  .img-section {
+    flex-direction: column;
+    transform: none;
+    align-items: center;
+  }
+   .side-img img {
+    width: 380px;   
+    height: auto;  
+    margin-left: 220px;
+  }
+
+  .hero-img {
+    margin-left: 220px;
+  }
+  .mini-title {
+    margin-left: 200px;
+    transform: translateY(-80px);
+  }
+
+  .img-box,
+  .box-img {
+    margin: 0 auto;
+    transform: none;
+  }
+
+  .mini-title,
+  .sub-title {
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  /* ✅ Form section fit mobile */
+  .form-section {
+    width: 580px;
+    height: 300px;
+    padding: 50px 20px;
+    background-position: center;
+    transform: none;
+  }
+  .form-section h2 {
+    font-size: 25px;
+    transform: translateY(88px);
+  }
+  .form-section input {
+    width: 359px;
+    height: 50px;
+  }
+
+  .form-section input,
+  .form-section .btn-secondary {
+    transform: none;
+    transform: translateY(-40px);
+  }
+
+  /* ✅ Footer stacked */
+  .footer-header {
+    
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    transform: translateY(50px);
+    margin-right: 750px;
+  }
+  .footer-list li {
+    
+  }
+  .social-links {
+    margin-left: 150px;
+  }
+
+  .footer-header,
+  .footer-text {
+    margin-left: 0;
+    transform: none;
+    text-align: center;
+  }
 }
