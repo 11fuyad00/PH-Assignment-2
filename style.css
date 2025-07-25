@@ -1,3 +1,5 @@
+
+
 .header-container {
  display: flex;
   gap: 30px;
@@ -339,18 +341,18 @@ margin-left: 180px;
 
   header {
     display: flex;
-    justify-content: space-between; /* logo ar cart duita dike */
+    justify-content: space-between;
     align-items: center;
   }
   .cart-icon {
     display: flex;
     gap: 10px;
-    margin-left: 270px;
+   
   }
   .cart-text {
     display: flex;
-    margin-top: 28px;
-     white-space: nowrap;
+    margin-top: 30px;
+    white-space: nowrap;
   }
 
   .header-container {
@@ -371,7 +373,7 @@ margin-left: 180px;
     display: none;
   }
 
-  /* ✅ Hero section stack vertically */
+  
   .Hero-conainer {
     flex-direction: column-reverse;
     align-items: center;
@@ -418,7 +420,7 @@ margin-left: 180px;
     padding: 10px;
   }
 
-  /* ✅ Column section adjust */
+ 
   .column-section {
     flex-direction: column;
     padding: 20px;
@@ -471,7 +473,7 @@ margin-left: 180px;
     text-align: center;
   }
 
-  /* ✅ Form section fit mobile */
+  
   .form-section {
     width: 580px;
     height: 300px;
@@ -494,7 +496,7 @@ margin-left: 180px;
     transform: translateY(-40px);
   }
 
-  /* ✅ Footer stacked */
+  
   .footer-header {
     
   }
